@@ -1,0 +1,16 @@
+RIJENERA - MAPPATURA SEGNAPOSTO IMMAGINI
+
+home01.png     = Hero homepage
+supporto01.png = Sezione "Assistenza, non intensità"
+idr01.png      = Idrokinesiterapia (card home + pagina servizio)
+dis01.png      = Attività fisica e disabilità (card home + pagina servizio)
+rip01.png      = Ripristino motorio (card home + pagina servizio)
+efa01.png      = Esercizio Fisico Adattato (card home + pagina servizio)
+afa01.png      = Attività Fisica Adattata (card home + pagina servizio)
+corsi01.png    = Corsi Rijenera (card home + pagina corsi)
+salute01.png   = Sezione "La salute in movimento"
+metodo01.png   = Sezione "Il metodo Rijenera"
+
+Per sostituire una foto mantenendo il sito invariato, sostituire il file PNG corrispondente nella cartella assets/img mantenendo esattamente lo stesso nome file.
+
+I riferimenti usati dal sito sono definiti esplicitamente in assets/js/app.js nella funzione applyImagePlaceholders(), con data-image-src aggiunto agli elementi visualizzati nel DOM.
